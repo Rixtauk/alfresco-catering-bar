@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Alfresco Catering Bar</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="main-header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <a href="../index.html">
+                        <img src="../images/logo/logo-header.png" alt="Alfresco Catering Bar" style="max-height: 60px; width: auto;">
+                    </a>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="about.html">About Us</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">Your Event <span class="arrow">▼</span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="wedding-bar-hire.html">Wedding Bar Services</a></li>
+                            <li><a href="corporate-event.html">Corporate Events</a></li>
+                            <li><a href="party-bar-hire.html">Party Bar Hire</a></li>
+                            <li><a href="event-bar-hire.html">Event Bar Hire</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section style="position: relative; height: 50vh; min-height: 400px; background-image: url('https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=1920&h=800&fit=crop'); background-size: cover; background-position: center; margin-top: 80px;">
+        <div style="position: absolute; inset: 0; background: rgba(0,0,0,0.5);"></div>
+        <div style="position: relative; height: 100%; display: flex; align-items: center; justify-content: center; text-align: center; color: white; z-index: 1;">
+            <div>
+                <h1 style="font-size: 3.5rem; margin-bottom: 0.5rem;">Let's discuss your event</h1>
+                <p style="font-size: 1.4rem; margin-bottom: 1.5rem;">and how we can provide you with a great bar experience!</p>
+                <div style="background-color: var(--accent-gold); color: white; padding: 0.75rem 2rem; border-radius: 5px; display: inline-block; font-weight: 600; font-size: 1.1rem;">
+                    Now Taking Bookings for 2025 & 2026
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section style="padding: 5rem 0; background-color: white;">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; max-width: 1200px; margin: 0 auto;">
+                <!-- Contact Form -->
+                <div>
+                    <h2 style="margin-bottom: 2rem; font-size: 2.5rem;">Get Your Quote</h2>
+                    <form style="display: flex; flex-direction: column; gap: 1.5rem;">
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                            <div>
+                                <label style="display: block; margin-bottom: 0.5rem; font-weight: 400; color: var(--text-dark);">Name *</label>
+                                <input type="text" required style="width: 100%; padding: 1rem; border: 2px solid #e0e0e0; border-radius: 5px; font-size: 1rem; transition: border-color 0.3s ease;">
+                            </div>
+                            <div>
+                                <label style="display: block; margin-bottom: 0.5rem; font-weight: 400; color: var(--text-dark);">Email *</label>
+                                <input type="email" required style="width: 100%; padding: 1rem; border: 2px solid #e0e0e0; border-radius: 5px; font-size: 1rem; transition: border-color 0.3s ease;">
+                            </div>
+                        </div>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                            <div>
+                                <label style="display: block; margin-bottom: 0.5rem; font-weight: 400; color: var(--text-dark);">Phone Number</label>
+                                <input type="tel" style="width: 100%; padding: 1rem; border: 2px solid #e0e0e0; border-radius: 5px; font-size: 1rem; transition: border-color 0.3s ease;">
+                            </div>
+                            <div>
+                                <label style="display: block; margin-bottom: 0.5rem; font-weight: 400; color: var(--text-dark);">Event Date</label>
+                                <input type="date" style="width: 100%; padding: 1rem; border: 2px solid #e0e0e0; border-radius: 5px; font-size: 1rem; transition: border-color 0.3s ease;">
+                            </div>
+                        </div>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                            <div>
+                                <label style="display: block; margin-bottom: 0.5rem; font-weight: 400; color: var(--text-dark);">Event Type</label>
+                                <select style="width: 100%; padding: 1rem; border: 2px solid #e0e0e0; border-radius: 5px; font-size: 1rem; transition: border-color 0.3s ease;">
+                                    <option value="">Select Event Type</option>
+                                    <option value="wedding">Wedding</option>
+                                    <option value="corporate">Corporate Event</option>
+                                    <option value="party">Private Party</option>
+                                    <option value="charity">Charity Event</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label style="display: block; margin-bottom: 0.5rem; font-weight: 400; color: var(--text-dark);">Guest Count</label>
+                                <input type="number" placeholder="Approximate number" style="width: 100%; padding: 1rem; border: 2px solid #e0e0e0; border-radius: 5px; font-size: 1rem; transition: border-color 0.3s ease;">
+                            </div>
+                        </div>
+                        <div>
+                            <label style="display: block; margin-bottom: 0.5rem; font-weight: 400; color: var(--text-dark);">Event Location</label>
+                            <input type="text" placeholder="Venue or town/city" style="width: 100%; padding: 1rem; border: 2px solid #e0e0e0; border-radius: 5px; font-size: 1rem; transition: border-color 0.3s ease;">
+                        </div>
+                        <div>
+                            <label style="display: block; margin-bottom: 0.5rem; font-weight: 400; color: var(--text-dark);">Message *</label>
+                            <textarea rows="4" required placeholder="Tell us about your event..." style="width: 100%; padding: 1rem; border: 2px solid #e0e0e0; border-radius: 5px; font-size: 1rem; resize: vertical; transition: border-color 0.3s ease;"></textarea>
+                        </div>
+                        <div>
+                            <label style="display: block; margin-bottom: 0.5rem; font-weight: 400; color: var(--text-dark);">How did you hear about us? *</label>
+                            <select required style="width: 100%; padding: 1rem; border: 2px solid #e0e0e0; border-radius: 5px; font-size: 1rem; transition: border-color 0.3s ease;">
+                                <option value="">Please select</option>
+                                <option value="google">Google Search</option>
+                                <option value="social">Social Media</option>
+                                <option value="referral">Friend/Family Referral</option>
+                                <option value="vendor">Wedding Vendor</option>
+                                <option value="venue">Venue Recommendation</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <button type="submit" style="padding: 1rem 3rem; background-color: var(--accent-gold); color: white; border: none; border-radius: 5px; font-size: 1.1rem; font-weight: 600; cursor: pointer; transition: all 0.3s ease; align-self: flex-start;">COMPLETE CONTACT FORM</button>
+                    </form>
+                </div>
+                
+                <!-- Contact Info -->
+                <div style="padding: 2rem;">
+                    <h2 style="margin-bottom: 2rem; font-size: 2.5rem;">Contact Details</h2>
+                    
+                    <div style="background-color: var(--primary-light); padding: 2rem; border-radius: 8px; margin-bottom: 2rem;">
+                        <h3 style="font-size: 1.4rem; margin-bottom: 1rem; color: var(--accent-gold);">📞 Phone</h3>
+                        <p style="font-size: 1.2rem; color: var(--text-dark); margin-bottom: 0;">07123 456789</p>
+                    </div>
+                    
+                    <div style="background-color: var(--primary-light); padding: 2rem; border-radius: 8px; margin-bottom: 2rem;">
+                        <h3 style="font-size: 1.4rem; margin-bottom: 1rem; color: var(--accent-gold);">✉️ Email</h3>
+                        <p style="font-size: 1.2rem; color: var(--text-dark); margin-bottom: 0;">hello@alfrescocateringbar.co.uk</p>
+                    </div>
+                    
+                    <div style="background-color: var(--primary-light); padding: 2rem; border-radius: 8px; margin-bottom: 2rem;">
+                        <h3 style="font-size: 1.4rem; margin-bottom: 1rem; color: var(--accent-gold);">📍 Service Area</h3>
+                        <p style="font-size: 1.2rem; color: var(--text-dark); margin-bottom: 0;">Devon and the South West of England</p>
+                    </div>
+                    
+                    <div style="background-color: var(--primary-light); padding: 2rem; border-radius: 8px; margin-bottom: 2rem;">
+                        <h3 style="font-size: 1.4rem; margin-bottom: 1rem; color: var(--accent-gold);">⏰ Response Time</h3>
+                        <p style="font-size: 1.2rem; color: var(--text-dark); margin-bottom: 0;">We typically respond within 24 hours</p>
+                    </div>
+                    
+                    <div style="text-align: center; margin-top: 3rem;">
+                        <h3 style="font-size: 1.4rem; margin-bottom: 1rem;">Follow Us</h3>
+                        <div style="display: flex; justify-content: center; gap: 2rem;">
+                            <a href="#" style="color: var(--accent-gold); font-size: 1.1rem; text-decoration: none;">Instagram</a>
+                            <a href="#" style="color: var(--accent-gold); font-size: 1.1rem; text-decoration: none;">Facebook</a>
+                            <a href="#" style="color: var(--accent-gold); font-size: 1.1rem; text-decoration: none;">Pinterest</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Additional CTA Section -->
+    <section style="padding: 4rem 0; background-color: var(--accent-gold); color: white; text-align: center;">
+        <div class="container">
+            <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">Ready to Make Your Event Unforgettable?</h2>
+            <p style="font-size: 1.2rem; margin-bottom: 0; max-width: 600px; margin-left: auto; margin-right: auto;">
+                We can't wait to hear about your event and help you create the perfect bar experience. Get in touch today!
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <p>hello@alfrescocateringbar.co.uk<br>
+                    07123 456789</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="event-bar-hire.html">Services</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#">Instagram</a>
+                        <a href="#">Facebook</a>
+                        <a href="#">Pinterest</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Alfresco Catering Bar. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>

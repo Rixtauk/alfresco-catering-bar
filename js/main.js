@@ -22,19 +22,39 @@ document.addEventListener('DOMContentLoaded', function() {
     // Dropdown functionality for mobile
     const dropdownToggle = document.querySelector('.dropdown-toggle');
     const dropdown = document.querySelector('.dropdown');
+    const dropdownMenu = document.querySelector('.dropdown-menu');
     
     if (dropdownToggle) {
         dropdownToggle.addEventListener('click', function(e) {
             if (window.innerWidth <= 768) {
                 e.preventDefault();
+                e.stopPropagation();
                 dropdown.classList.toggle('active');
+                
+                // Close other dropdowns if any
+                document.querySelectorAll('.dropdown').forEach(otherDropdown => {
+                    if (otherDropdown !== dropdown) {
+                        otherDropdown.classList.remove('active');
+                    }
+                });
             }
+        });
+    }
+
+    // Close dropdown when clicking on a dropdown menu item
+    if (dropdownMenu) {
+        dropdownMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', function() {
+                dropdown.classList.remove('active');
+                navMenu.classList.remove('active');
+                hamburger.classList.remove('active');
+            });
         });
     }
 
     // Close dropdown when clicking outside
     document.addEventListener('click', function(e) {
-        if (!dropdown.contains(e.target) && dropdown.classList.contains('active')) {
+        if (dropdown && !dropdown.contains(e.target) && dropdown.classList.contains('active')) {
             dropdown.classList.remove('active');
         }
     });

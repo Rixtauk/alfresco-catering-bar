@@ -800,12 +800,13 @@ img {
         position: static;
         transform: none;
         box-shadow: none;
-        background-color: rgba(248, 246, 243, 0.5);
+        background-color: rgba(248, 246, 243, 0.8);
         margin-top: 0;
         opacity: 1;
         visibility: visible;
         display: none;
         padding: 0.5rem 0;
+        width: 100%;
     }
 
     .dropdown.active .dropdown-menu {
@@ -816,13 +817,53 @@ img {
         transform: rotate(180deg);
     }
 
+    .dropdown-menu li {
+        display: block;
+        width: 100%;
+    }
+
     .dropdown-menu a {
-        padding: 0.5rem 1rem;
-        font-size: 0.85rem;
+        display: block;
+        padding: 0.75rem 2rem;
+        font-size: 0.9rem;
+        color: var(--text-dark);
+        text-align: center;
+        transition: all 0.2s ease;
+    }
+
+    .dropdown-menu a:hover {
+        background-color: var(--primary-light);
+        color: var(--accent-gold);
+        padding-left: 2rem;
     }
 
     .dropdown:hover .dropdown-menu {
         margin-top: 0;
+        display: none; /* Disable hover on mobile */
+    }
+
+    /* Make the dropdown toggle more obvious on mobile */
+    .dropdown-toggle {
+        cursor: pointer;
+        user-select: none;
+        -webkit-tap-highlight-color: transparent;
+        position: relative;
+        padding-right: 1.5rem;
+    }
+    
+    /* Add mobile indicator styling */
+    .nav-menu.active .dropdown-toggle {
+        color: var(--accent-gold);
+    }
+    
+    /* Style the arrow to be more prominent on mobile */
+    .nav-menu.active .dropdown-toggle .arrow {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 1rem;
+        color: var(--accent-gold);
     }
 
     /* Hero adjustments */

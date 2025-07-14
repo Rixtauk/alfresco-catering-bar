@@ -46,9 +46,9 @@
     <section style="position: relative; height: 50vh; min-height: 400px; background-image: url('https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=1920&h=800&fit=crop'); background-size: cover; background-position: center; margin-top: 80px;">
         <div style="position: absolute; inset: 0; background: rgba(0,0,0,0.5);"></div>
         <div style="position: relative; height: 100%; display: flex; align-items: center; justify-content: center; text-align: center; color: white; z-index: 1;">
-            <div>
-                <h1 style="font-size: 3.5rem; margin-bottom: 0.5rem;">Let's discuss your event</h1>
-                <p style="font-size: 1.4rem; margin-bottom: 1.5rem;">and how we can provide you with a great bar experience!</p>
+            <div class="container">
+                <h1 class="text-hero">Let's discuss your event</h1>
+                <p class="text-lead" style="margin-bottom: 1.5rem;">and how we can provide you with a great bar experience!</p>
                 <div style="background-color: var(--accent-gold); color: white; padding: 0.75rem 2rem; border-radius: 5px; display: inline-block; font-weight: 600; font-size: 1.1rem;">
                     Now Taking Bookings for 2025 & 2026
                 </div>
@@ -57,14 +57,14 @@
     </section>
 
     <!-- Contact Section -->
-    <section style="padding: 5rem 0; background-color: white;">
+    <section class="section-padding" style="background-color: white;">
         <div class="container">
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; max-width: 1200px; margin: 0 auto;">
+            <div class="mobile-stack" style="max-width: 1200px; margin: 0 auto; gap: 5rem;">
                 <!-- Contact Form -->
                 <div>
-                    <h2 style="margin-bottom: 2rem; font-size: 2.5rem;">Get Your Quote</h2>
+                    <h2 class="text-subtitle" style="margin-bottom: 2rem;">Get Your Quote</h2>
                     <form style="display: flex; flex-direction: column; gap: 1.5rem;">
-                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                        <div class="grid-2" style="gap: 1rem;">
                             <div>
                                 <label style="display: block; margin-bottom: 0.5rem; font-weight: 400; color: var(--text-dark);">Name *</label>
                                 <input type="text" required style="width: 100%; padding: 1rem; border: 2px solid #e0e0e0; border-radius: 5px; font-size: 1rem; transition: border-color 0.3s ease;">
@@ -74,7 +74,7 @@
                                 <input type="email" required style="width: 100%; padding: 1rem; border: 2px solid #e0e0e0; border-radius: 5px; font-size: 1rem; transition: border-color 0.3s ease;">
                             </div>
                         </div>
-                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                        <div class="grid-2" style="gap: 1rem;">
                             <div>
                                 <label style="display: block; margin-bottom: 0.5rem; font-weight: 400; color: var(--text-dark);">Phone Number</label>
                                 <input type="tel" style="width: 100%; padding: 1rem; border: 2px solid #e0e0e0; border-radius: 5px; font-size: 1rem; transition: border-color 0.3s ease;">
@@ -84,7 +84,7 @@
                                 <input type="date" style="width: 100%; padding: 1rem; border: 2px solid #e0e0e0; border-radius: 5px; font-size: 1rem; transition: border-color 0.3s ease;">
                             </div>
                         </div>
-                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                        <div class="grid-2" style="gap: 1rem;">
                             <div>
                                 <label style="display: block; margin-bottom: 0.5rem; font-weight: 400; color: var(--text-dark);">Event Type</label>
                                 <select style="width: 100%; padding: 1rem; border: 2px solid #e0e0e0; border-radius: 5px; font-size: 1rem; transition: border-color 0.3s ease;">
@@ -121,13 +121,13 @@
                                 <option value="other">Other</option>
                             </select>
                         </div>
-                        <button type="submit" style="padding: 1rem 3rem; background-color: var(--accent-gold); color: white; border: none; border-radius: 5px; font-size: 1.1rem; font-weight: 600; cursor: pointer; transition: all 0.3s ease; align-self: flex-start;">COMPLETE CONTACT FORM</button>
+                        <button type="submit" class="btn-mobile" style="background-color: var(--accent-gold); color: white; border: none; border-radius: 5px; font-weight: 600; cursor: pointer; transition: all 0.3s ease; align-self: flex-start;">COMPLETE CONTACT FORM</button>
                     </form>
                 </div>
                 
                 <!-- Contact Info -->
                 <div style="padding: 2rem;">
-                    <h2 style="margin-bottom: 2rem; font-size: 2.5rem;">Contact Details</h2>
+                    <h2 class="text-subtitle" style="margin-bottom: 2rem;">Contact Details</h2>
                     
                     <div style="background-color: var(--primary-light); padding: 2rem; border-radius: 8px; margin-bottom: 2rem;">
                         <h3 style="font-size: 1.4rem; margin-bottom: 1rem; color: var(--accent-gold);">📞 Phone</h3>
@@ -163,10 +163,10 @@
     </section>
     
     <!-- Additional CTA Section -->
-    <section style="padding: 4rem 0; background-color: var(--accent-gold); color: white; text-align: center;">
+    <section class="section-padding-sm" style="background-color: var(--accent-gold); color: white; text-align: center;">
         <div class="container">
-            <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">Ready to Make Your Event Unforgettable?</h2>
-            <p style="font-size: 1.2rem; margin-bottom: 0; max-width: 600px; margin-left: auto; margin-right: auto;">
+            <h2 class="text-subtitle">Ready to Make Your Event Unforgettable?</h2>
+            <p class="text-body" style="margin-bottom: 0; max-width: 600px; margin-left: auto; margin-right: auto;">
                 We can't wait to hear about your event and help you create the perfect bar experience. Get in touch today!
             </p>
         </div>

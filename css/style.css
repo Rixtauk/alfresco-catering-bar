@@ -111,6 +111,15 @@ img {
     color: var(--accent-gold);
 }
 
+/* Desktop/Mobile menu visibility */
+.mobile-only {
+    display: none;
+}
+
+.desktop-only {
+    display: block;
+}
+
 /* Dropdown Menu Styles */
 .dropdown {
     position: relative;
@@ -759,6 +768,15 @@ img {
 }
 
 @media (max-width: 768px) {
+    /* Show/hide mobile vs desktop menu items */
+    .mobile-only {
+        display: block !important;
+    }
+    
+    .desktop-only {
+        display: none !important;
+    }
+    
     /* Navigation */
     .nav-menu {
         position: fixed;
@@ -795,75 +813,22 @@ img {
         transform: rotate(45deg) translate(-5px, -6px);
     }
 
-    /* Mobile dropdown styles */
-    .dropdown-menu {
-        position: static;
-        transform: none;
-        box-shadow: none;
-        background-color: rgba(248, 246, 243, 0.8);
-        margin-top: 0;
-        opacity: 1;
-        visibility: visible;
-        display: none;
-        padding: 0.5rem 0;
-        width: 100%;
-    }
-
-    .dropdown.active .dropdown-menu {
-        display: block;
-    }
-
-    .dropdown.active .arrow {
-        transform: rotate(180deg);
-    }
-
-    .dropdown-menu li {
-        display: block;
-        width: 100%;
-    }
-
-    .dropdown-menu a {
-        display: block;
-        padding: 0.75rem 2rem;
-        font-size: 0.9rem;
-        color: var(--text-dark);
-        text-align: center;
-        transition: all 0.2s ease;
-    }
-
-    .dropdown-menu a:hover {
-        background-color: var(--primary-light);
-        color: var(--accent-gold);
-        padding-left: 2rem;
-    }
-
-    .dropdown:hover .dropdown-menu {
-        margin-top: 0;
-        display: none; /* Disable hover on mobile */
-    }
-
-    /* Make the dropdown toggle more obvious on mobile */
-    .dropdown-toggle {
-        cursor: pointer;
-        user-select: none;
-        -webkit-tap-highlight-color: transparent;
-        position: relative;
-        padding-right: 1.5rem;
+    /* Mobile menu items styling */
+    .nav-menu li {
+        margin: 0.5rem 0;
     }
     
-    /* Add mobile indicator styling */
-    .nav-menu.active .dropdown-toggle {
-        color: var(--accent-gold);
-    }
-    
-    /* Style the arrow to be more prominent on mobile */
-    .nav-menu.active .dropdown-toggle .arrow {
-        position: absolute;
-        right: 0;
-        top: 50%;
-        transform: translateY(-50%);
+    .nav-menu a {
+        display: block;
+        padding: 0.75rem 1.5rem;
         font-size: 1rem;
+        color: var(--text-dark);
+        transition: all 0.3s ease;
+    }
+    
+    .nav-menu a:hover {
         color: var(--accent-gold);
+        background-color: var(--primary-light);
     }
 
     /* Hero adjustments */

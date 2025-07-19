@@ -170,7 +170,7 @@ img {
 .dropdown-menu a {
     display: block;
     padding: 0.75rem 1.5rem;
-    color: var(--text-dark);
+    color: var(--white);
     font-size: 0.9rem;
     transition: all 0.2s ease;
     white-space: nowrap;

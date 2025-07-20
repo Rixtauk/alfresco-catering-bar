@@ -3,8 +3,28 @@
 .gallery-hero {
     margin-top: 80px;
     padding: 4rem 0;
-    background-color: var(--primary-light);
+    background-image: url('../images/Heros/Hero (82).jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
     text-align: center;
+    color: white;
+}
+
+.gallery-hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.gallery-hero .container {
+    position: relative;
+    z-index: 2;
 }
 
 .gallery-hero h1 {

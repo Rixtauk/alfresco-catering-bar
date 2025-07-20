@@ -201,7 +201,7 @@ img {
     position: relative;
     height: 100vh;
     min-height: 600px;
-    background-image: url('../images/Heros/Hero (76).jpg');
+    background-image: url('../images/Heros/Home page hero.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -838,6 +838,9 @@ img {
         height: 80vh;
         min-height: 500px;
         background-attachment: scroll;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
     }
 
     .hero-title {
@@ -847,6 +850,13 @@ img {
     .hero-subtitle {
         font-size: 1rem;
         padding: 0 20px;
+    }
+
+    /* Mobile hero sections optimization */
+    section[style*="background-image"] {
+        background-size: contain !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
     }
 
     /* Service grid */

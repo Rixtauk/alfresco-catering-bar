@@ -207,6 +207,9 @@
 @media (max-width: 768px) {
     .gallery-hero {
         padding: 3rem 0;
+        background-size: contain !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
     }
     
     .gallery-hero h1 {

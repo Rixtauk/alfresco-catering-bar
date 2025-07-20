@@ -201,7 +201,7 @@ img {
     position: relative;
     height: 100vh;
     min-height: 600px;
-    background-image: url('../images/Heros/Home page hero.jpg');
+    background-image: url('../images/Heros/Home%20page%20hero.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

@@ -833,15 +833,16 @@ img {
         left: -100%;
         top: 70px;
         flex-direction: column;
-        background-color: rgba(42, 42, 42, 0.95);
+        background-color: rgba(42, 42, 42, 0.98);
         width: 100%;
         text-align: center;
         transition: 0.3s;
-        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.3);
         padding: 2rem 0;
         max-height: calc(100vh - 70px);
         overflow-y: auto;
         backdrop-filter: blur(10px);
+        z-index: 999;
     }
 
     .nav-menu.active {
@@ -873,13 +874,13 @@ img {
         display: block;
         padding: 0.75rem 1.5rem;
         font-size: 1rem;
-        color: var(--text-dark);
+        color: var(--white);
         transition: all 0.3s ease;
     }
     
     .nav-menu a:hover {
         color: var(--accent-gold);
-        background-color: var(--primary-light);
+        background-color: rgba(255, 255, 255, 0.1);
     }
 
     /* Hero adjustments */

@@ -211,12 +211,17 @@ img {
     margin-top: 0;
     overflow: hidden;
     z-index: 1;
+    background-color: var(--primary-dark);
 }
 
 @media (max-width: 768px) {
     .hero {
         background-attachment: scroll;
         min-height: 500px;
+        height: calc(100vh - 70px); /* Account for fixed header */
+        margin-top: 70px; /* Push content below fixed header */
+        background-size: cover;
+        background-position: center center;
     }
 }
 
@@ -888,7 +893,7 @@ img {
         height: 80vh;
         min-height: 500px;
         background-attachment: scroll;
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
     }
@@ -904,9 +909,27 @@ img {
 
     /* Mobile hero sections optimization */
     section[style*="background-image"] {
-        background-size: contain !important;
+        background-size: cover !important;
         background-repeat: no-repeat !important;
-        background-position: center !important;
+        background-position: center center !important;
+        background-color: var(--primary-dark) !important; /* Fallback color */
+    }
+    
+    /* Fix hero sections on mobile */
+    .hero, .about-hero, section[class*="hero"] {
+        background-color: var(--primary-dark) !important; /* Prevents grey bars */
+        overflow: hidden;
+    }
+    
+    /* Ensure hero overlays cover full area */
+    .hero-overlay, div[style*="background: rgba"] {
+        position: absolute !important;
+        top: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        bottom: 0 !important;
+        width: 100% !important;
+        height: 100% !important;
     }
 
     /* Service grid */
@@ -1034,6 +1057,12 @@ img {
     
     .hero-content {
         padding: 0 20px;
+    }
+    
+    /* Additional hero fixes for small screens */
+    .hero, .about-hero, section[style*="background-image"] {
+        min-height: 400px !important;
+        height: calc(100vh - 70px) !important;
     }
 
     .section-title {

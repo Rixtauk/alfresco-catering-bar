@@ -207,9 +207,13 @@
 @media (max-width: 768px) {
     .gallery-hero {
         padding: 3rem 0;
-        background-size: contain !important;
+        background-size: cover !important;
         background-repeat: no-repeat !important;
-        background-position: center !important;
+        background-position: center center !important;
+        background-color: var(--primary-dark) !important;
+        min-height: 400px;
+        height: calc(100vh - 70px);
+        margin-top: 70px;
     }
     
     .gallery-hero h1 {

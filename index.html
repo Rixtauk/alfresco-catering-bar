@@ -170,11 +170,11 @@
                     </div>
                 </div>
             </div>
-            <div class="text-mobile-center" style="margin-top: 4rem;">
+            <div class="text-mobile-center" style="margin-top: 4rem; text-align: center;">
                 <div style="background: var(--accent-gold); color: white; padding: 2rem; border-radius: 10px; margin-bottom: 2rem;">
                     <p class="text-body" style="font-style: italic; margin: 0; font-size: 1.1rem;">Choose the package that best suits your event, or we can create a custom combination to meet your specific needs.</p>
                 </div>
-                <a href="pages/contact.html" class="btn-outline btn-mobile" style="background: var(--accent-gold); color: white; border-color: var(--accent-gold); padding: 1rem 2rem; font-size: 1.1rem; font-weight: 600;">GET A QUOTE</a>
+                <a href="pages/contact.html" class="btn-outline btn-mobile" style="background: var(--accent-gold); color: white; border-color: var(--accent-gold); padding: 1rem 2rem; font-size: 1.1rem; font-weight: 600; display: inline-block;">GET A QUOTE</a>
             </div>
         </div>
     </section>
@@ -301,14 +301,26 @@
     <section class="testimonials section-padding">
         <div class="container">
             <h2 class="section-title text-title text-mobile-center">Testimonials</h2>
-            <div class="testimonial-carousel">
-                <div class="testimonial-item active">
-                    <h4 class="client-name">NESS</h4>
-                    <p class="testimonial-text text-lead">"The Fizzy Pheasant from start to finish were everything we could have hoped for. Great communication and stress free from start to finish"...</p>
+            <div class="testimonial-slider" style="position: relative; overflow: hidden;">
+                <div class="testimonial-carousel" style="display: flex; transition: transform 0.5s ease;">
+                    <div class="testimonial-item" style="min-width: 100%; padding: 0 20px;">
+                        <h4 class="client-name">NESS</h4>
+                        <p class="testimonial-text text-lead">"The Fizzy Pheasant from start to finish were everything we could have hoped for. Great communication and stress free from start to finish"</p>
+                    </div>
+                    <div class="testimonial-item" style="min-width: 100%; padding: 0 20px;">
+                        <h4 class="client-name">SARAH & JAMES</h4>
+                        <p class="testimonial-text text-lead">"Alfresco made our wedding day absolutely perfect! The horsebox bar was stunning and our guests are still talking about the cocktails. Professional, friendly, and went above and beyond our expectations."</p>
+                    </div>
+                    <div class="testimonial-item" style="min-width: 100%; padding: 0 20px;">
+                        <h4 class="client-name">CORPORATE EVENTS LTD</h4>
+                        <p class="testimonial-text text-lead">"We've used Alfresco for multiple corporate events and they never disappoint. Reliable, professional, and the quality of service is exceptional. Our clients always comment on how impressed they are."</p>
+                    </div>
                 </div>
-            </div>
-            <div class="text-mobile-center">
-                <a href="#testimonials" class="btn-outline btn-mobile">READ TESTIMONIALS</a>
+                <div class="testimonial-nav" style="display: flex; justify-content: center; gap: 10px; margin-top: 2rem;">
+                    <button class="testimonial-dot active" data-slide="0" style="width: 12px; height: 12px; border-radius: 50%; border: 2px solid white; background: white; cursor: pointer; transition: all 0.3s;"></button>
+                    <button class="testimonial-dot" data-slide="1" style="width: 12px; height: 12px; border-radius: 50%; border: 2px solid white; background: transparent; cursor: pointer; transition: all 0.3s;"></button>
+                    <button class="testimonial-dot" data-slide="2" style="width: 12px; height: 12px; border-radius: 50%; border: 2px solid white; background: transparent; cursor: pointer; transition: all 0.3s;"></button>
+                </div>
             </div>
         </div>
     </section>
@@ -319,7 +331,7 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <h4>Contact Us</h4>
-                    <p>hello@alfrescomobilebar.co.uk<br>
+                    <p>info@alfresco-mobilebar.co.uk<br>
                     07123 456789</p>
                 </div>
                 <div class="footer-section">

@@ -1,0 +1,34 @@
+# Robots.txt for Alfresco Mobile Bar
+# https://www.alfresco-mobilebar.co.uk
+
+User-agent: *
+Allow: /
+Disallow: /css/
+Disallow: /js/
+Disallow: *.pdf$
+
+# Sitemap location
+Sitemap: https://www.alfresco-mobilebar.co.uk/sitemap.xml
+
+# Crawl delay for bots
+Crawl-delay: 1
+
+# Major search engine bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Block bad bots
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /

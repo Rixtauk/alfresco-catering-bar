@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEO Implementation Guide - Alfresco Mobile Bar</title>
+</head>
+<body>
+    <h1>SEO Implementation Guide for Alfresco Mobile Bar</h1>
+    
+    <h2>1. Meta Tags & Open Graph for Each Page</h2>
+    
+    <h3>Homepage (index.html)</h3>
+    <pre><code>
+&lt;!-- Primary Meta Tags --&gt;
+&lt;meta name="title" content="Mobile Bar Hire Somerset &amp; Devon | Wedding Bar Services | Alfresco Mobile Bar"&gt;
+&lt;meta name="description" content="Award-winning mobile bar hire in Somerset &amp; Devon. Professional wedding bars, corporate events &amp; party hire. Horsebox bar, cocktails &amp; fully licensed service. Free quotes!"&gt;
+&lt;meta name="keywords" content="mobile bar hire Somerset, wedding bar hire Devon, horsebox bar Somerset, cocktail bar hire Bath, mobile bar Bristol, event bar hire Exeter, wedding bar services Taunton"&gt;
+&lt;meta name="robots" content="index, follow"&gt;
+&lt;meta name="language" content="English"&gt;
+&lt;meta name="author" content="Alfresco Mobile Bar"&gt;
+
+&lt;!-- Open Graph / Facebook --&gt;
+&lt;meta property="og:type" content="website"&gt;
+&lt;meta property="og:url" content="https://www.alfresco-mobilebar.co.uk/"&gt;
+&lt;meta property="og:title" content="Mobile Bar Hire Somerset &amp; Devon | Wedding Bar Services | Alfresco Mobile Bar"&gt;
+&lt;meta property="og:description" content="Award-winning mobile bar hire in Somerset &amp; Devon. Professional wedding bars, corporate events &amp; party hire. Horsebox bar, cocktails &amp; fully licensed service."&gt;
+&lt;meta property="og:image" content="https://www.alfresco-mobilebar.co.uk/images/social-share.jpg"&gt;
+
+&lt;!-- Twitter --&gt;
+&lt;meta property="twitter:card" content="summary_large_image"&gt;
+&lt;meta property="twitter:url" content="https://www.alfresco-mobilebar.co.uk/"&gt;
+&lt;meta property="twitter:title" content="Mobile Bar Hire Somerset &amp; Devon | Alfresco Mobile Bar"&gt;
+&lt;meta property="twitter:description" content="Award-winning mobile bar hire in Somerset &amp; Devon. Professional wedding bars, corporate events &amp; party hire."&gt;
+&lt;meta property="twitter:image" content="https://www.alfresco-mobilebar.co.uk/images/social-share.jpg"&gt;
+
+&lt;!-- Canonical URL --&gt;
+&lt;link rel="canonical" href="https://www.alfresco-mobilebar.co.uk/"&gt;
+    </code></pre>
+
+    <h3>Wedding Bar Hire Page</h3>
+    <pre><code>
+&lt;meta name="title" content="Wedding Bar Hire Somerset &amp; Devon | Horsebox Bar | Alfresco Mobile Bar"&gt;
+&lt;meta name="description" content="Stunning wedding bar hire in Somerset &amp; Devon. Beautiful horsebox bar, professional bartenders, bespoke cocktails. Serving Bath, Bristol, Exeter, Taunton &amp; beyond. Get quote!"&gt;
+&lt;meta name="keywords" content="wedding bar hire Somerset, horsebox bar Devon, wedding drinks Somerset, mobile bar wedding Bath, cocktail bar wedding Bristol, wedding bar services Exeter"&gt;
+
+&lt;meta property="og:title" content="Wedding Bar Hire Somerset &amp; Devon | Horsebox Bar | Alfresco Mobile Bar"&gt;
+&lt;meta property="og:description" content="Create unforgettable wedding memories with our stunning horsebox bar. Professional wedding bar services across Somerset &amp; Devon."&gt;
+&lt;meta property="og:url" content="https://www.alfresco-mobilebar.co.uk/pages/wedding-bar-hire.html"&gt;
+    </code></pre>
+
+    <h3>Corporate Events Page</h3>
+    <pre><code>
+&lt;meta name="title" content="Corporate Event Bar Hire Somerset &amp; Devon | Professional Mobile Bar Services"&gt;
+&lt;meta name="description" content="Professional corporate event bar hire in Somerset &amp; Devon. Impress clients with our premium mobile bars. Serving Bristol, Bath, Exeter businesses. Fully licensed &amp; insured."&gt;
+&lt;meta name="keywords" content="corporate event bar Somerset, business event bar hire Devon, mobile bar corporate Bath, conference bar hire Bristol, office party bar Exeter"&gt;
+    </code></pre>
+
+    <h3>Party Bar Hire Page</h3>
+    <pre><code>
+&lt;meta name="title" content="Party Bar Hire Somerset &amp; Devon | Birthday &amp; Celebration Mobile Bars"&gt;
+&lt;meta name="description" content="Make your party unforgettable with mobile bar hire in Somerset &amp; Devon. LED bars, cocktail service, professional staff. Perfect for birthdays, anniversaries &amp; celebrations."&gt;
+&lt;meta name="keywords" content="party bar hire Somerset, birthday bar hire Devon, mobile bar party Bath, celebration bar Bristol, anniversary bar Exeter, LED bar hire Taunton"&gt;
+    </code></pre>
+
+    <h3>Event Bar Hire Page</h3>
+    <pre><code>
+&lt;meta name="title" content="Event Bar Hire Somerset &amp; Devon | Festivals, Fairs &amp; Charity Events"&gt;
+&lt;meta name="description" content="Professional event bar hire for festivals, fairs &amp; charity events in Somerset &amp; Devon. High-volume service, multiple bars available. Fully licensed across the South West."&gt;
+&lt;meta name="keywords" content="event bar hire Somerset, festival bar Devon, charity event bar Bath, fair bar hire Bristol, outdoor event bar Exeter"&gt;
+    </code></pre>
+
+    <h3>About Page</h3>
+    <pre><code>
+&lt;meta name="title" content="About Alfresco Mobile Bar | Award-Winning Bar Hire Somerset &amp; Devon"&gt;
+&lt;meta name="description" content="Meet the team behind Somerset &amp; Devon's premier mobile bar service. Award-winning, fully licensed &amp; insured. Creating memorable celebrations since [year]."&gt;
+    </code></pre>
+
+    <h3>Contact Page</h3>
+    <pre><code>
+&lt;meta name="title" content="Contact Alfresco Mobile Bar | Get Quote for Bar Hire Somerset &amp; Devon"&gt;
+&lt;meta name="description" content="Contact us for mobile bar hire quotes in Somerset &amp; Devon. Free consultations for weddings, parties &amp; events. Serving Bath, Bristol, Exeter, Taunton &amp; surrounding areas."&gt;
+    </code></pre>
+
+    <h3>Gallery Page</h3>
+    <pre><code>
+&lt;meta name="title" content="Mobile Bar Gallery | Wedding &amp; Event Photos | Alfresco Bar Somerset &amp; Devon"&gt;
+&lt;meta name="description" content="Browse our gallery of stunning mobile bars at weddings &amp; events across Somerset &amp; Devon. See our horsebox bar, LED bars &amp; cocktail service in action."&gt;
+    </code></pre>
+
+    <h2>2. Schema Markup Implementation</h2>
+
+    <h3>LocalBusiness Schema (Add to homepage)</h3>
+    <pre><code>
+&lt;script type="application/ld+json"&gt;
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Alfresco Mobile Bar",
+  "image": "https://www.alfresco-mobilebar.co.uk/images/logo/Al-Fresco-Mobile-Bar-Logo.png",
+  "@id": "https://www.alfresco-mobilebar.co.uk",
+  "url": "https://www.alfresco-mobilebar.co.uk",
+  "telephone": "07123456789",
+  "email": "info@alfresco-mobilebar.co.uk",
+  "address": {
+    "@type": "PostalAddress",
+    "addressRegion": "Somerset",
+    "addressCountry": "GB"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 51.1055,
+    "longitude": -2.8363
+  },
+  "serviceArea": [
+    {
+      "@type": "GeoCircle",
+      "geoMidpoint": {
+        "@type": "GeoCoordinates",
+        "latitude": 51.3811,
+        "longitude": -2.3590
+      },
+      "geoRadius": "80000"
+    }
+  ],
+  "areaServed": [
+    {
+      "@type": "AdministrativeArea",
+      "name": "Somerset"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Devon"
+    },
+    {
+      "@type": "City",
+      "name": "Bath"
+    },
+    {
+      "@type": "City",
+      "name": "Bristol"
+    },
+    {
+      "@type": "City",
+      "name": "Exeter"
+    },
+    {
+      "@type": "City",
+      "name": "Taunton"
+    },
+    {
+      "@type": "City",
+      "name": "Plymouth"
+    },
+    {
+      "@type": "City",
+      "name": "Bridgwater"
+    },
+    {
+      "@type": "City",
+      "name": "Yeovil"
+    },
+    {
+      "@type": "City",
+      "name": "Barnstaple"
+    },
+    {
+      "@type": "City",
+      "name": "Torquay"
+    }
+  ],
+  "description": "Award-winning mobile bar hire service in Somerset and Devon. Professional wedding bars, corporate events, and party hire with horsebox bar, cocktails, and fully licensed service.",
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  },
+  "priceRange": "££",
+  "servesCuisine": "Cocktails and Beverages",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "reviewCount": "47"
+  }
+}
+&lt;/script&gt;
+    </code></pre>
+
+    <h3>Service Schema (Add to service pages)</h3>
+    <pre><code>
+&lt;script type="application/ld+json"&gt;
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Wedding Bar Hire",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "Alfresco Mobile Bar",
+    "url": "https://www.alfresco-mobilebar.co.uk"
+  },
+  "areaServed": [
+    {
+      "@type": "AdministrativeArea",
+      "name": "Somerset"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Devon"
+    }
+  ],
+  "description": "Professional wedding bar hire service featuring our stunning horsebox bar, experienced bartenders, and bespoke cocktail menus for weddings across Somerset and Devon.",
+  "offers": {
+    "@type": "Offer",
+    "priceRange": "From £200"
+  }
+}
+&lt;/script&gt;
+    </code></pre>
+
+    <h3>Event Schema (For specific events)</h3>
+    <pre><code>
+&lt;script type="application/ld+json"&gt;
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Wedding Bar Service",
+  "description": "Professional mobile bar service for weddings",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "location": {
+    "@type": "Place",
+    "name": "Various Venues across Somerset and Devon",
+    "address": {
+      "@type": "PostalAddress",
+      "addressRegion": "Somerset and Devon",
+      "addressCountry": "GB"
+    }
+  },
+  "organizer": {
+    "@type": "Organization",
+    "name": "Alfresco Mobile Bar",
+    "url": "https://www.alfresco-mobilebar.co.uk"
+  }
+}
+&lt;/script&gt;
+    </code></pre>
+
+    <h2>3. Local SEO Content Suggestions</h2>
+
+    <h3>Location-Specific Keywords to Integrate:</h3>
+    <ul>
+        <li><strong>Somerset Focus:</strong> Bath, Bristol, Taunton, Bridgwater, Yeovil, Glastonbury, Wells, Frome, Chard, Burnham-on-Sea</li>
+        <li><strong>Devon Focus:</strong> Exeter, Plymouth, Torquay, Barnstaple, Paignton, Newton Abbot, Bideford, Tiverton, Exmouth, Sidmouth</li>
+        <li><strong>Venue Types:</strong> "Somerset wedding venues", "Devon country houses", "Bath Assembly Rooms", "Exeter Cathedral", "Plymouth Guildhall"</li>
+        <li><strong>Local Events:</strong> "Glastonbury Festival bar", "Bath Christmas Market", "Devon County Show", "Exeter Food Festival"</li>
+    </ul>
+
+    <h3>Content Improvements for Local SEO:</h3>
+    <pre><code>
+&lt;!-- Add to homepage --&gt;
+&lt;section class="local-service-areas"&gt;
+    &lt;h2&gt;Mobile Bar Hire Across Somerset &amp; Devon&lt;/h2&gt;
+    &lt;p&gt;Proudly serving the South West with professional mobile bar services:&lt;/p&gt;
+    
+    &lt;div class="location-grid"&gt;
+        &lt;div class="location-group"&gt;
+            &lt;h3&gt;Somerset Coverage&lt;/h3&gt;
+            &lt;ul&gt;
+                &lt;li&gt;Bath - Historic venues &amp; Georgian elegance&lt;/li&gt;
+                &lt;li&gt;Bristol - Urban celebrations &amp; waterfront events&lt;/li&gt;
+                &lt;li&gt;Taunton - County town celebrations&lt;/li&gt;
+                &lt;li&gt;Glastonbury - Festival vibes &amp; mystical settings&lt;/li&gt;
+                &lt;li&gt;Wells - Cathedral city charm&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+        
+        &lt;div class="location-group"&gt;
+            &lt;h3&gt;Devon Coverage&lt;/h3&gt;
+            &lt;ul&gt;
+                &lt;li&gt;Exeter - Cathedral city sophistication&lt;/li&gt;
+                &lt;li&gt;Plymouth - Waterfront &amp; naval celebrations&lt;/li&gt;
+                &lt;li&gt;Torquay - English Riviera elegance&lt;/li&gt;
+                &lt;li&gt;Barnstaple - North Devon charm&lt;/li&gt;
+                &lt;li&gt;Dartmoor - Unique moorland venues&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+    </code></pre>
+
+    <h2>4. Social Media Preview Image Specifications</h2>
+
+    <h3>Create social-share.jpg with these specifications:</h3>
+    <ul>
+        <li><strong>Dimensions:</strong> 1200x630px (Facebook/LinkedIn optimal)</li>
+        <li><strong>Content Elements:</strong>
+            <ul>
+                <li>Alfresco Mobile Bar logo (top left)</li>
+                <li>Hero image of horsebox bar with wedding setup</li>
+                <li>Text overlay: "Mobile Bar Hire | Somerset & Devon"</li>
+                <li>Tagline: "Creating Unforgettable Celebrations"</li>
+                <li>Contact: "07123 456789 | Free Quotes"</li>
+            </ul>
+        </li>
+        <li><strong>Color scheme:</strong> Match brand colors with gold accents</li>
+        <li><strong>File size:</strong> Under 200KB for fast loading</li>
+    </ul>
+
+    <h2>5. Technical SEO Requirements</h2>
+
+    <h3>XML Sitemap (sitemap.xml)</h3>
+    <pre><code>
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"&gt;
+    &lt;url&gt;
+        &lt;loc&gt;https://www.alfresco-mobilebar.co.uk/&lt;/loc&gt;
+        &lt;lastmod&gt;2025-01-14&lt;/lastmod&gt;
+        &lt;changefreq&gt;weekly&lt;/changefreq&gt;
+        &lt;priority&gt;1.0&lt;/priority&gt;
+    &lt;/url&gt;
+    &lt;url&gt;
+        &lt;loc&gt;https://www.alfresco-mobilebar.co.uk/pages/wedding-bar-hire.html&lt;/loc&gt;
+        &lt;lastmod&gt;2025-01-14&lt;/lastmod&gt;
+        &lt;changefreq&gt;weekly&lt;/changefreq&gt;
+        &lt;priority&gt;0.9&lt;/priority&gt;
+    &lt;/url&gt;
+    &lt;url&gt;
+        &lt;loc&gt;https://www.alfresco-mobilebar.co.uk/pages/corporate-event.html&lt;/loc&gt;
+        &lt;lastmod&gt;2025-01-14&lt;/lastmod&gt;
+        &lt;changefreq&gt;weekly&lt;/changefreq&gt;
+        &lt;priority&gt;0.8&lt;/priority&gt;
+    &lt;/url&gt;
+    &lt;url&gt;
+        &lt;loc&gt;https://www.alfresco-mobilebar.co.uk/pages/party-bar-hire.html&lt;/loc&gt;
+        &lt;lastmod&gt;2025-01-14&lt;/lastmod&gt;
+        &lt;changefreq&gt;weekly&lt;/changefreq&gt;
+        &lt;priority&gt;0.8&lt;/priority&gt;
+    &lt;/url&gt;
+    &lt;url&gt;
+        &lt;loc&gt;https://www.alfresco-mobilebar.co.uk/pages/event-bar-hire.html&lt;/loc&gt;
+        &lt;lastmod&gt;2025-01-14&lt;/lastmod&gt;
+        &lt;changefreq&gt;weekly&lt;/changefreq&gt;
+        &lt;priority&gt;0.8&lt;/priority&gt;
+    &lt;/url&gt;
+    &lt;url&gt;
+        &lt;loc&gt;https://www.alfresco-mobilebar.co.uk/pages/about.html&lt;/loc&gt;
+        &lt;lastmod&gt;2025-01-14&lt;/lastmod&gt;
+        &lt;changefreq&gt;monthly&lt;/changefreq&gt;
+        &lt;priority&gt;0.7&lt;/priority&gt;
+    &lt;/url&gt;
+    &lt;url&gt;
+        &lt;loc&gt;https://www.alfresco-mobilebar.co.uk/pages/gallery.html&lt;/loc&gt;
+        &lt;lastmod&gt;2025-01-14&lt;/lastmod&gt;
+        &lt;changefreq&gt;weekly&lt;/changefreq&gt;
+        &lt;priority&gt;0.7&lt;/priority&gt;
+    &lt;/url&gt;
+    &lt;url&gt;
+        &lt;loc&gt;https://www.alfresco-mobilebar.co.uk/pages/contact.html&lt;/loc&gt;
+        &lt;lastmod&gt;2025-01-14&lt;/lastmod&gt;
+        &lt;changefreq&gt;monthly&lt;/changefreq&gt;
+        &lt;priority&gt;0.8&lt;/priority&gt;
+    &lt;/url&gt;
+&lt;/urlset&gt;
+    </code></pre>
+
+    <h3>Robots.txt</h3>
+    <pre><code>
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+
+Sitemap: https://www.alfresco-mobilebar.co.uk/sitemap.xml
+    </code></pre>
+
+    <h3>Page Load Optimizations</h3>
+    <ul>
+        <li><strong>Image Optimization:</strong>
+            <ul>
+                <li>Convert all images to WebP format with JPG fallback</li>
+                <li>Implement lazy loading for gallery images</li>
+                <li>Use responsive images with srcset</li>
+                <li>Compress images to under 200KB each</li>
+            </ul>
+        </li>
+        <li><strong>Code Optimization:</strong>
+            <ul>
+                <li>Minify CSS and JavaScript files</li>
+                <li>Implement critical CSS inline</li>
+                <li>Defer non-critical JavaScript</li>
+                <li>Enable browser caching headers</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>6. Content & Structure Improvements</h2>
+
+    <h3>H1/H2 Hierarchy Improvements</h3>
+    <pre><code>
+&lt;!-- Homepage Structure --&gt;
+&lt;h1&gt;Mobile Bar Hire Somerset &amp; Devon | Al Fresco Mobile Bar&lt;/h1&gt;
+    &lt;h2&gt;Award-Winning Mobile Bar Services&lt;/h2&gt;
+        &lt;h3&gt;Wedding Bar Hire&lt;/h3&gt;
+        &lt;h3&gt;Corporate Events&lt;/h3&gt;
+        &lt;h3&gt;Party Bar Hire&lt;/h3&gt;
+    &lt;h2&gt;Our Mobile Bars&lt;/h2&gt;
+        &lt;h3&gt;The Horsebox Bar&lt;/h3&gt;
+        &lt;h3&gt;The Airstream Bar&lt;/h3&gt;
+    &lt;h2&gt;Service Areas: Somerset &amp; Devon&lt;/h2&gt;
+    </code></pre>
+
+    <h3>Internal Linking Structure</h3>
+    <ul>
+        <li>Add breadcrumbs to all pages: Home > Service Type > Current Page</li>
+        <li>Create contextual links between related services</li>
+        <li>Add "Areas We Serve" footer section with location links</li>
+        <li>Implement related services section on each service page</li>
+    </ul>
+
+    <h3>Location-Specific Landing Pages (Create These)</h3>
+    <ul>
+        <li>/locations/mobile-bar-hire-bath.html</li>
+        <li>/locations/mobile-bar-hire-bristol.html</li>
+        <li>/locations/mobile-bar-hire-exeter.html</li>
+        <li>/locations/mobile-bar-hire-taunton.html</li>
+        <li>/locations/mobile-bar-hire-plymouth.html</li>
+    </ul>
+
+    <h3>Location Page Template</h3>
+    <pre><code>
+&lt;h1&gt;Mobile Bar Hire Bath | Wedding &amp; Event Bar Services&lt;/h1&gt;
+
+&lt;p&gt;Looking for professional mobile bar hire in Bath? Alfresco Mobile Bar brings award-winning 
+bar services to Bath's most prestigious venues including the Assembly Rooms, Royal Crescent, 
+and Prior Park.&lt;/p&gt;
+
+&lt;h2&gt;Popular Bath Venues We Serve&lt;/h2&gt;
+&lt;ul&gt;
+    &lt;li&gt;Bath Assembly Rooms&lt;/li&gt;
+    &lt;li&gt;The Roman Baths&lt;/li&gt;
+    &lt;li&gt;Prior Park Landscape Garden&lt;/li&gt;
+    &lt;li&gt;Bath Racecourse&lt;/li&gt;
+    &lt;li&gt;The Guildhall&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Our Bath Bar Hire Services&lt;/h2&gt;
+[Service content specific to Bath area]
+
+&lt;h2&gt;Recent Bath Events&lt;/h2&gt;
+[Testimonials and case studies from Bath events]
+    </code></pre>
+
+    <h2>Additional SEO Recommendations</h2>
+
+    <h3>Content Calendar Suggestions</h3>
+    <ul>
+        <li><strong>Blog Posts:</strong>
+            <ul>
+                <li>"Top 10 Wedding Venues in Somerset for Mobile Bar Hire"</li>
+                <li>"Devon's Best Outdoor Event Locations for Bar Services"</li>
+                <li>"Seasonal Cocktails for Somerset Weddings"</li>
+                <li>"Corporate Event Bar Ideas in Bristol"</li>
+            </ul>
+        </li>
+        <li><strong>Seasonal Content:</strong>
+            <ul>
+                <li>Summer wedding bar trends in Devon</li>
+                <li>Christmas party bar hire in Somerset</li>
+                <li>Festival season bar services</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h3>Link Building Opportunities</h3>
+    <ul>
+        <li>Partner with Somerset/Devon wedding venues</li>
+        <li>List on local wedding directories</li>
+        <li>Collaborate with event planners in Bath/Bristol/Exeter</li>
+        <li>Join Somerset/Devon business directories</li>
+        <li>Guest posts on South West wedding blogs</li>
+    </ul>
+
+    <h3>Google My Business Optimization</h3>
+    <ul>
+        <li>Create GMB profile with Somerset as primary location</li>
+        <li>Add service areas covering all Somerset/Devon towns</li>
+        <li>Regular posts about events in different locations</li>
+        <li>Encourage reviews mentioning specific towns/venues</li>
+        <li>Upload photos from events across the region</li>
+    </ul>
+</body>
+</html>

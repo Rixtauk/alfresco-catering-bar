@@ -1116,3 +1116,38 @@ img {
         min-width: 44px;
     }
 }
+
+/* Fix package tiles on mobile */
+@media (max-width: 768px) {
+    /* Fix package tiles on homepage and wedding page */
+    .grid-2 > div[style*="position: relative"] {
+        padding: 2rem 1.5rem !important;
+        min-height: auto !important;
+        margin-top: 20px !important;
+    }
+    
+    /* Fix package badge positioning on mobile */
+    div[style*="position: absolute"][style*="top: -15px"] {
+        font-size: 0.75rem !important;
+        padding: 6px 15px !important;
+    }
+    
+    /* Fix text sizing in packages */
+    .text-lead {
+        font-size: 1.1rem !important;
+    }
+    
+    .text-body {
+        font-size: 0.9rem !important;
+        line-height: 1.5 !important;
+    }
+    
+    .text-responsive {
+        font-size: 0.85rem !important;
+    }
+    
+    /* Specific fix for package grid spacing */
+    div[style*="grid-template-columns"] {
+        row-gap: 3rem !important;
+    }
+}

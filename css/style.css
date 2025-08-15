@@ -863,11 +863,13 @@ img {
         text-align: center;
         transition: 0.3s;
         box-shadow: 0 10px 27px rgba(0, 0, 0, 0.3);
-        padding: 2rem 0;
-        max-height: calc(100vh - 70px);
+        padding: 2rem 0 3rem;
+        height: calc(100vh - 70px);
         overflow-y: auto;
+        overflow-x: hidden;
         backdrop-filter: blur(10px);
         z-index: 999;
+        -webkit-overflow-scrolling: touch;
     }
 
     .nav-menu.active {
@@ -910,10 +912,11 @@ img {
     
     /* Mobile CTA button styling */
     .nav-menu .btn-nav-cta {
-        margin: 1rem auto 0;
+        margin: 1.5rem auto 2rem;
         display: inline-block;
         width: auto;
         max-width: 200px;
+        padding: 0.8rem 2rem !important;
     }
     
     .nav-menu .btn-nav-cta:hover {

@@ -170,9 +170,7 @@
 }
 
 .lightbox-caption {
-    text-align: center;
-    color: white;
-    margin-top: 1.5rem;
+    display: none; /* Hidden since captions were incorrect */
 }
 
 .lightbox-caption h3 {

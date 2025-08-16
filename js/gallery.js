@@ -11,13 +11,12 @@ document.addEventListener('DOMContentLoaded', function() {
     galleryItems.forEach(item => {
         item.addEventListener('click', function() {
             const img = this.querySelector('img');
-            const title = this.querySelector('.overlay-content h3').textContent;
-            const description = this.querySelector('.overlay-content p').textContent;
             
             lightboxImg.src = img.src;
             lightboxImg.alt = img.alt;
-            lightboxTitle.textContent = title;
-            lightboxDescription.textContent = description;
+            // Don't show any title or description since they were incorrect
+            lightboxTitle.textContent = '';
+            lightboxDescription.textContent = '';
             
             lightbox.classList.add('active');
             document.body.style.overflow = 'hidden'; // Prevent background scrolling

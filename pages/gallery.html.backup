@@ -60,102 +60,300 @@
                 </div>
                 <div class="gallery-item size-tall">
                     <img src="../images/gallery/cocktail-service.jpeg" alt="Professional cocktail service">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Cocktail Service</h3>
+                            <p>Expert mixology at your event</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="gallery-item size-wide">
                     <img src="../images/gallery/horsebox-bar-setup.jpeg" alt="Horsebox Bar Setup">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Horsebox Bar</h3>
+                            <p>Vintage charm meets modern service</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="gallery-item size-small">
                     <img src="../images/gallery/rustic-barn-mobile-bar-setup.jpeg" alt="Rustic mobile bar setup in barn venue with exposed wooden beams and fully stocked spirit shelves">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Rustic Bar Setup</h3>
+                            <p>Barn venue with complete spirit collection</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="gallery-item size-large">
                     <img src="../images/gallery/outdoor-wedding-bar.jpeg" alt="Outdoor wedding bar service">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Outdoor Wedding Bar</h3>
+                            <p>Perfect for garden celebrations</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="gallery-item size-tall">
                     <img src="../images/gallery/floral-cocktails-yellow-garnish.jpeg" alt="Multiple cocktail glasses with clear cocktails garnished with yellow edible flowers and fresh mint">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Botanical Cocktails</h3>
+                            <p>Clear cocktails with edible flower garnishes</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="gallery-item size-small">
                     <img src="../images/gallery/festival-bar-setup.jpeg" alt="Festival bar service">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Festival Bar</h3>
+                            <p>High-volume event service</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="gallery-item size-wide">
                     <img src="../images/gallery/bar-drinks-display.jpeg" alt="Bar drinks showcase">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Drinks Display</h3>
+                            <p>Extensive selection available</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="gallery-item size-small">
                     <img src="../images/gallery/signature-cocktails-edible-flowers.jpg" alt="Two signature cocktails featuring golden drink with orange and pink foam cocktail with edible flower garnish">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Signature Cocktails</h3>
+                            <p>Unique drinks with edible flower garnishes</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="gallery-item size-tall">
                     <img src="../images/gallery/rustic-bar-evening.jpeg" alt="Rustic bar with evening lighting">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Rustic Evening Bar</h3>
+                            <p>Cozy atmosphere for any event</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="gallery-item size-large">
                     <img src="../images/gallery/outdoor-wine-toast-celebration.jpeg" alt="Guests toasting with rose and white wine at outdoor event with greenery in background">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Wine Service</h3>
+                            <p>Outdoor celebration with premium wines</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="gallery-item size-small">
                     <img src="../images/gallery/corporate-event-bar.jpeg" alt="Corporate event bar service">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Corporate Events</h3>
+                            <p>Professional business entertaining</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="gallery-item size-wide">
                     <img src="../images/gallery/airstream-bar-setup.jpeg" alt="Airstream bar setup">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Airstream Bar</h3>
+                            <p>Retro style with modern service</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="gallery-item size-tall">
                     <img src="../images/gallery/event-bar-hire.jpeg" alt="Event bar hire service">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Event Bar Hire</h3>
+                            <p>Professional service guaranteed</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="gallery-item size-small">
                     <img src="../images/gallery/bar-setup-details.jpeg" alt="Bar setup details">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Setup Details</h3>
+                            <p>Attention to every detail</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="gallery-item size-large">
                     <img src="../images/gallery/garden-party-bar.jpeg" alt="Garden party bar service">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Garden Party Bar</h3>
+                            <p>Perfect for outdoor celebrations</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="gallery-item size-small">
                     <img src="../images/gallery/hendricks-gin-bar-display.jpeg" alt="Hendrick's Gin bottles displayed on wooden shelf with fresh herbs and crystal glassware">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Mobile Bar Service</h3>
+                            <p>Bringing the bar to you</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="gallery-item size-wide">
                     <img src="../images/gallery/wedding-reception-bar.jpeg" alt="Wedding reception bar">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Wedding Reception</h3>
+                            <p>Celebrating your special day</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="gallery-item size-tall">
                     <img src="../images/gallery/botanical-cocktails-lineup.jpeg" alt="Row of clear cocktails with black straws garnished with colorful edible flowers and fresh herbs">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Service Excellence</h3>
+                            <p>Quality you can trust</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="gallery-item size-small">
                     <img src="../images/gallery/bar-setup-details.jpeg" alt="Professional bar details">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Professional Details</h3>
+                            <p>Every element perfected</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="gallery-item size-large">
                     <img src="../images/gallery/espresso-martini-trio.jpeg" alt="Three espresso martinis in coupe glasses with decorative foam art on wooden bar">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Event Showcase</h3>
+                            <p>Making your event special</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="gallery-item size-small">
                     <img src="../images/gallery/curved-bar-floral-cocktails.jpeg" alt="Elegant row of clear cocktails with edible flower garnishes on curved wooden bar">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Elegant Service</h3>
+                            <p>Sophisticated bar experience</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="gallery-item size-wide">
                     <img src="../images/gallery/mobile-bar-service.jpeg" alt="Mobile cocktail bar for wedding">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Wedding Cocktail Bar</h3>
+                            <p>Professional mobile bar setup</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="gallery-item size-tall">
                     <img src="../images/gallery/opihr-gin-bar-station.jpeg" alt="Opihr gin bottles with decorative packaging alongside crystal glasses and fresh flower arrangements">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Quality Service</h3>
+                            <p>Excellence in every pour</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="gallery-item size-small">
                     <img src="../images/gallery/mobile-bar-full-setup-cheers.jpeg" alt="Complete mobile bar setup with rustic wooden frame, Cheers sign, and extensive spirit collection">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Professional Service</h3>
+                            <p>Bartenders you can rely on</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="gallery-item size-large">
                     <img src="../images/gallery/mobile-bar-service.jpeg" alt="Complete mobile bar service">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Complete Service</h3>
+                            <p>Everything you need for your event</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="gallery-item size-small">
                     <img src="../images/gallery/colorful-gin-collection-display.jpeg" alt="Premium gin collection display featuring colorful bottles including pink and yellow gins on wooden shelves">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Event Setup</h3>
+                            <p>Ready for your celebration</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="gallery-item size-wide">
                     <img src="../images/gallery/mobile-bar-beer-tap-flowers.jpeg" alt="Mobile bar setup featuring draft beer tap, spirit collection, and elegant white flower arrangements">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Bar Hire Excellence</h3>
+                            <p>The Al Fresco difference</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="gallery-item size-small">
                     <img src="../images/gallery/bar-setup-details.jpeg" alt="Bar service details">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Service Details</h3>
+                            <p>Every detail perfected</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="gallery-item size-tall">
                     <img src="../images/gallery/hendricks-gin-bar-display.jpeg" alt="Hendrick's Gin bottles displayed on wooden shelf with fresh herbs and crystal glassware">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Cocktail Excellence</h3>
+                            <p>Premium drink service</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="gallery-item size-wide">
                     <img src="../images/gallery/botanical-cocktails-lineup.jpeg" alt="Row of clear cocktails with black straws garnished with colorful edible flowers and fresh herbs">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Event Ready</h3>
+                            <p>Professional bar service</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="gallery-item size-small">
                     <img src="../images/gallery/espresso-martini-trio.jpeg" alt="Three espresso martinis in coupe glasses with decorative foam art on wooden bar">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Perfect Presentation</h3>
+                            <p>Style meets function</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="gallery-item size-small">
                     <img src="../images/gallery/curved-bar-floral-cocktails.jpeg" alt="Elegant row of clear cocktails with edible flower garnishes on curved wooden bar">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Mobile Excellence</h3>
+                            <p>Bringing the bar to you</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="gallery-item size-tall">
                     <img src="../images/gallery/opihr-gin-bar-station.jpeg" alt="Opihr gin bottles with decorative packaging alongside crystal glasses and fresh flower arrangements">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Al Fresco Style</h3>
+                            <p>Outdoor bar perfection</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

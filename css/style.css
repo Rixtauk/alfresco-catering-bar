@@ -662,6 +662,23 @@ img {
     margin: 3rem auto;
 }
 
+/* Ensure testimonial items don't show edges */
+.testimonial-slider {
+    position: relative;
+    overflow: hidden !important;
+}
+
+.testimonial-carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.testimonial-item {
+    min-width: 100%;
+    flex: 0 0 100%;
+    box-sizing: border-box;
+}
+
 .client-name {
     font-family: 'Open Sans', sans-serif;
     font-size: 0.9rem;
@@ -949,6 +966,21 @@ img {
         background-repeat: no-repeat !important;
         background-position: center center !important;
         background-color: var(--primary-dark) !important; /* Fallback color */
+    }
+    
+    /* Fix testimonial carousel on mobile */
+    .testimonial-slider {
+        overflow: hidden !important;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .testimonial-carousel {
+        width: 100%;
+    }
+    
+    .testimonial-item {
+        padding: 2rem 1.5rem !important;
     }
     
     /* Fix hero sections on mobile */
